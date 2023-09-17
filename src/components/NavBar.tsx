@@ -1,9 +1,10 @@
 import '../styles/NavBar.css'
+import Logo from './Logo'
 
 const NavBar = () => {
   return (
     <nav className='main-nav'>
-      <p>Nav</p>
+      <Logo />
     </nav>
   )
 }
