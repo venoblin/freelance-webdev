@@ -1,0 +1,13 @@
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+
+  .links {
+    display: flex;
+
+    * {
+      cursor: pointer;
+      margin: auto 5px;
+    }
+  }
+}

@@ -1,1 +1,11 @@
-/*# sourceMappingURL=NavBar.css.map */
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+}
+.main-nav .links {
+  display: flex;
+}
+.main-nav .links * {
+  cursor: pointer;
+  margin: auto 5px;
+}/*# sourceMappingURL=NavBar.css.map */
