@@ -3,7 +3,7 @@ import '../styles/Logo.css'
 const Logo = () => {
   
   return (
-    <h1>Freelance / Web Dev</h1>
+    <h1 className='logo'>Freelance / Web Dev</h1>
   )
 }
 
