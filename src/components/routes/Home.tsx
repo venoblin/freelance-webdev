@@ -7,12 +7,12 @@ const Home = () => {
         <p>Intro</p>
       </section>
 
-      <section className='projects-reviews'>
-        <p>Projects & reviews</p>
+      <section className='services'>
+        <p>Services</p>
       </section>
 
-      <section className='pricing'>
-        <p>Pricing</p>
+      <section className='reviews'>
+        <p>Reviews</p>
       </section>
     </div>
   )
