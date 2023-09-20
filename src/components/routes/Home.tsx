@@ -14,6 +14,10 @@ const Home = () => {
       <section className='reviews'>
         <p>Reviews</p>
       </section>
+
+      <section className='contact'>
+        <p>Contact</p>
+      </section>
     </div>
   )
 }
