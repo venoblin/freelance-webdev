@@ -1,9 +1,15 @@
+import { useNavigate } from 'react-router-dom'
 import '../styles/Logo.css'
 
 const Logo = () => {
+  const nav = useNavigate()
+
+  const clickHandler = () => {
+    nav('/')
+  }
   
   return (
-    <p className='logo'>Freelance / Web Dev</p>
+    <p onClick={clickHandler} className='logo'>Freelance / Web Dev</p>
   )
 }
 
