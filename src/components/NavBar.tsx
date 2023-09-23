@@ -5,7 +5,7 @@ import Logo from './Logo'
 const NavBar = () => {
   return (
     <nav className='main-nav'>
-      <Logo size="5" />
+      <Logo size="small" />
 
       <div className='links'>
         <Link to='/portfolio'>Portfolio</Link>
