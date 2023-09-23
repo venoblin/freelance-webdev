@@ -1,7 +1,8 @@
 import { useNavigate } from 'react-router-dom'
+import { LogoProps } from '../types/logo'
 import '../styles/Logo.css'
 
-const Logo = () => {
+const Logo = (props: LogoProps) => {
   const nav = useNavigate()
 
   const clickHandler = () => {
