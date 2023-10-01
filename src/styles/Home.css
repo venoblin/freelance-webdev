@@ -6,6 +6,10 @@
   color: #F2F2F2;
   height: 100vh;
   padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 .home .intro span {
   color: #F15A49;
