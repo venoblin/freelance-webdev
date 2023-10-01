@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='home'>
       <section className='intro'>
-        <h1>Heading</h1>
+        <h1>Your <span>Website</span>, Our <span>Expertise</span></h1>
         <p>Sub heading</p>
       </section>
 
