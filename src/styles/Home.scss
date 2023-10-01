@@ -1,14 +1,14 @@
 @import './vars/variables.scss';
 
 .home {
+  section {
+    padding: 2rem;
+  }
+  
   .intro {
     background: $darkBlueColor;
     color: $whiteColor;
-    height: 80vh;
-  }
-
-  .services {
-    background: grey;
-    height: 20vh;
+    height: 100vh;
+    padding: 5rem 2rem;
   }
 }

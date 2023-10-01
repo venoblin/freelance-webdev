@@ -1,9 +1,9 @@
+.home section {
+  padding: 2rem;
+}
 .home .intro {
   background: #07171C;
   color: #F2F2F2;
-  height: 80vh;
-}
-.home .services {
-  background: grey;
-  height: 20vh;
+  height: 100vh;
+  padding: 5rem 2rem;
 }/*# sourceMappingURL=Home.css.map */

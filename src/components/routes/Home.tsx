@@ -4,7 +4,8 @@ const Home = () => {
   return (
     <div className='home'>
       <section className='intro'>
-        <p>Intro</p>
+        <h1>Heading</h1>
+        <p>Sub heading</p>
       </section>
 
       <section className='services'>
