@@ -10,5 +10,13 @@
     color: $whiteColor;
     height: 100vh;
     padding: 5rem 2rem;
+
+    span {
+      color: $actionColor;
+    }
+
+    .sub-heading {
+      color: $mutedWhiteColor;
+    }
   }
 }

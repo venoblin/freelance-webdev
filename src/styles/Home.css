@@ -6,4 +6,10 @@
   color: #F2F2F2;
   height: 100vh;
   padding: 5rem 2rem;
+}
+.home .intro span {
+  color: #F15A49;
+}
+.home .intro .sub-heading {
+  color: #c6c6c6;
 }/*# sourceMappingURL=Home.css.map */
