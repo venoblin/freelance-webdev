@@ -5,7 +5,7 @@
   background: #07171C;
   color: #F2F2F2;
   height: 100vh;
-  padding: 5rem 2rem;
+  padding: 5rem 2rem 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -16,4 +16,9 @@
 }
 .home .intro .sub-heading {
   color: #c6c6c6;
+}
+.home .intro img {
+  width: 85%;
+  border-radius: 1rem 1rem 0 0;
+  border: 10px solid black;
 }/*# sourceMappingURL=Home.css.map */

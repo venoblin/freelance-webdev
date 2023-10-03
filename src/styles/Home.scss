@@ -9,7 +9,7 @@
     background: $darkBlueColor;
     color: $whiteColor;
     height: 100vh;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -21,6 +21,12 @@
 
     .sub-heading {
       color: $mutedWhiteColor;
+    }
+
+    img {
+      width: 85%;
+      border-radius: 1rem 1rem 0 0;
+      border: 10px solid black;
     }
   }
 }
