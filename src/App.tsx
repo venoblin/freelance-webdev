@@ -9,7 +9,7 @@ import Contact from './components/routes/Contact'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='app'>
       <NavBar />
       
       <main>
