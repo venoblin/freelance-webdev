@@ -1,4 +1,7 @@
 .app {
   position: relative;
   padding: 2rem;
+}
+.app main {
+  background: #171717;
 }/*# sourceMappingURL=App.css.map */
