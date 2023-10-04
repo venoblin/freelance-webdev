@@ -10,12 +10,8 @@ const Home = () => {
         <img src={introImage} alt='Code editor' />
       </section>
 
-      <section className='services'>
+      <section className='services white'>
         <p>Services</p>
-      </section>
-
-      <section className='reviews'>
-        <p>Reviews</p>
       </section>
 
       <section className='contact'>
