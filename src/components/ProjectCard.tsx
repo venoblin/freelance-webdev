@@ -1,3 +1,5 @@
+import '../styles/ProjectCard.css'
+
 const ProjectCard = () => {
   return (
     <div className='project-card'>
