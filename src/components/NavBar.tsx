@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Logo from './Logo'
 
 const NavBar = () => {
+  
   return (
     <nav className='main-nav'>
       <Logo size="small" />
