@@ -1,7 +1,7 @@
-import '../../styles/Home.css'
+import './HomeRoute.css'
 import introImage from '../../images/intro-image.png'
 
-const Home = () => {
+const HomeRoute = () => {
   return (
     <div className='home'>
       <section className='intro'>
@@ -21,4 +21,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomeRoute

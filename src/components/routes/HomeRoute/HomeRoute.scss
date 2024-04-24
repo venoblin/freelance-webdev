@@ -1,0 +1,27 @@
+@import './vars/variables.scss';
+
+.home {
+  section {
+    padding: 2rem;
+  }
+  
+  .intro {
+    height: 100vh;
+    padding: 5rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    span {
+      color: $actionColor;
+    }
+
+    img {
+      width: 85%;
+      border-radius: 1rem 1rem 0 0;
+      border: 10px solid black;
+    }
+    
+  }
+}
