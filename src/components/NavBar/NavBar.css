@@ -1,18 +1,21 @@
 .main-nav {
-  background: grey;
+  background: #0c0c0c;
   position: sticky;
   top: 0;
   left: 0;
+  width: 100%;
+}
+.main-nav .inner-nav {
+  background: #171717;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   padding: 2rem 4rem;
   border-radius: 2.5rem 2.5rem 0 0;
 }
-.main-nav .links {
+.main-nav .inner-nav .links {
   display: flex;
 }
-.main-nav .links * {
+.main-nav .inner-nav .links * {
   cursor: pointer;
   margin: auto 5px;
 }/*# sourceMappingURL=NavBar.css.map */
