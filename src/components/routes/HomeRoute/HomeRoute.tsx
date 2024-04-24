@@ -1,5 +1,5 @@
 import './HomeRoute.css'
-import introImage from '../../images/intro-image.png'
+import introImage from '../../../images/intro-image.png'
 
 const HomeRoute = () => {
   return (
