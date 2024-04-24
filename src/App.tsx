@@ -1,11 +1,11 @@
 import './styles/App.css'
 import { Routes, Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
-import Home from './components/routes/Home'
-import NotFound from './components/routes/NotFound'
-import Portfolio from './components/routes/Portfolio'
-import Contact from './components/routes/Contact'
+import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
+import HomeRoute from './components/routes/HomeRoute/HomeRoute'
+import NotFoundRoute from './components/routes/NotFoundRoute/NotFoundRoute'
+import PortfolioRoute from './components/routes/PortfolioRoute/PortfolioRoute'
+import ContactRoute from './components/routes/ContactRoute/ContactRoute'
 
 const App = () => {
   return (
@@ -14,10 +14,10 @@ const App = () => {
       
       <main>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='*' element={<NotFound/>} />
+          <Route path='/' element={<HomeRoute />} />
+          <Route path='/portfolio' element={<PortfolioRoute />} />
+          <Route path='/contact' element={<ContactRoute />} />
+          <Route path='*' element={<NotFoundRoute />} />
         </Routes>
       </main>
       

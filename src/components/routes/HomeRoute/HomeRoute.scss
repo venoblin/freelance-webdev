@@ -1,4 +1,4 @@
-@import './vars/variables.scss';
+@import '../../../styles/vars/variables.scss';
 
 .home {
   section {
@@ -22,6 +22,5 @@
       border-radius: 1rem 1rem 0 0;
       border: 10px solid black;
     }
-    
   }
 }

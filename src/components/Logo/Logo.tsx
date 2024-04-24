@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import '../styles/Logo.css'
+import './Logo.css'
 
 const Logo = () => {
   const nav = useNavigate()
