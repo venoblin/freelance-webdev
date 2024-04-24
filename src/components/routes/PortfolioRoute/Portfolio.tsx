@@ -1,6 +1,6 @@
-import '../../styles/Portfolio.css'
+import './PortfolioRoute.css'
 
-const Portfolio = () => {
+const PortfolioRoute = () => {
   return (
     <div className='portfolio'>
       <p>Portfolio</p>
@@ -8,4 +8,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default PortfolioRoute

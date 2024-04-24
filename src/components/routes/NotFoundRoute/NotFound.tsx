@@ -1,6 +1,6 @@
-import '../../styles/NotFound.css'
+import './NotFoundRoute.css'
 
-const NotFound = () => {
+const NotFoundRoute = () => {
   return (
     <div className='not-found'>
       <p>404 Not Found</p>
@@ -8,4 +8,4 @@ const NotFound = () => {
   )
 }
 
-export default NotFound
+export default NotFoundRoute
