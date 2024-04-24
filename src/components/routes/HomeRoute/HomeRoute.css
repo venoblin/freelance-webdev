@@ -2,7 +2,7 @@
   padding: 2rem;
 }
 .home .intro {
-  height: 100vh;
+  max-height: 1200px;
   padding: 5rem 2rem 0 2rem;
   display: flex;
   flex-direction: column;

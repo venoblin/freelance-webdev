@@ -3,6 +3,8 @@
 .app {
   position: relative;
   padding: 2rem;
+  max-width: 1200px;
+  margin: auto auto;
 
   main {
     background: $darkColor;
